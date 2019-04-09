@@ -1,0 +1,30 @@
+body{
+
+    padding-top: 50px;
+}
+
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0 ,.1);
+}
+
+.title-sidebar{
+    font-size: .90rem;
+    font-weight: bold;
+}
+
+.sidebar .nav-link.active{
+        color:#007bff;
+
+}
+
+.sidebar .nav-link{
+    font-weight: noral;
+    color: #999;
+}
