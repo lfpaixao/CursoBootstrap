@@ -1,0 +1,116 @@
+.cards-container{
+
+    padding: 1rem 1.25rem;
+
+}
+.cards-container .card{
+
+    border-radius: 0;
+    border: none;
+
+}
+.cards-container .card-body{
+    background-color: rgba(70, 70, 70);
+    padding: 1rem;
+    margin: 0;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.cards-container [class^=col] {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.rodape{
+    height: 5rem;
+    color: white;
+    background-color: #6b6b6b;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px black;
+
+}
+.rodape p{
+    
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font: 100% arial, sans-serif;
+    background-color: #ccc;
+}
+
+section{
+    margin: 1 rem 0;
+    background-color: white;
+    padding: .75rem;
+    margin-bottom: .5rem;
+}
+
+.tittle{
+
+    border-bottom:  2px inset #ccc;
+    margin: 0;
+    background: #eee;
+    font-weight: bold;
+    margin-bottom: .8rem;
+
+}
+.lead{
+    padding: 1rem;
+    border-bottom:  2px solid white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .6);
+    margin-bottom: .8rem;
+    display: inline-block;
+
+}
+
+.jumbotron{
+    min-height: 80vh;
+    background-image: url(../imgs/bg-3.jpg);
+    background-size: cover;
+    background-position: right center;
+    color: white;
+    padding: 10rem 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0,0,0,.6);
+    font-weight: bold;
+    margin-bottom: 2rem;
+
+}
+
+.nav{
+
+    position: absolute;
+    z-index:1;
+    top: 2rem;
+    right: 2rem;
+}
+
+
+.nav-item{
+    border: 1px solid white;
+    margin-left: 1rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+
+.nav-item:hover{  
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: white;
+    text-decoration: none;
+}
